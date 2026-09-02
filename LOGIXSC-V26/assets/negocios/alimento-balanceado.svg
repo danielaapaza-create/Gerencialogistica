@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="300" fill="#003B70"/>
+  <rect y="230" width="400" height="70" fill="#0A2E4D"/>
+  <g>
+    <g transform="translate(80,60)">
+      <rect x="0" y="30" width="60" height="140" fill="#F3F6F9" opacity="0.85"/>
+      <path d="M0 30 Q30 0 60 30 Z" fill="#F3F6F9" opacity="0.85"/>
+      <rect x="0" y="30" width="60" height="140" fill="none" stroke="#075995" stroke-width="2"/>
+      <rect x="20" y="70" width="20" height="10" fill="#E30613"/>
+    </g>
+    <g transform="translate(170,40)">
+      <rect x="0" y="30" width="75" height="170" fill="#F3F6F9"/>
+      <path d="M0 30 Q37.5 -5 75 30 Z" fill="#F3F6F9"/>
+      <rect x="0" y="30" width="75" height="170" fill="none" stroke="#075995" stroke-width="2"/>
+      <rect x="27" y="80" width="20" height="10" fill="#E30613"/>
+    </g>
+    <g transform="translate(270,75)">
+      <rect x="0" y="25" width="55" height="125" fill="#F3F6F9" opacity="0.85"/>
+      <path d="M0 25 Q27.5 0 55 25 Z" fill="#F3F6F9" opacity="0.85"/>
+      <rect x="0" y="25" width="55" height="125" fill="none" stroke="#075995" stroke-width="2"/>
+    </g>
+  </g>
+  <g stroke="#F3F6F9" stroke-width="2" opacity="0.4">
+    <line x1="140" y1="120" x2="170" y2="120"/>
+    <line x1="245" y1="120" x2="270" y2="120"/>
+  </g>
+</svg>

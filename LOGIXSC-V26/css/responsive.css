@@ -1,0 +1,131 @@
+/* =========================================================
+   LOGIXSC+ — responsive.css
+   ========================================================= */
+
+/* ---- Laptop / small desktop ---- */
+@media (max-width: 1180px) {
+  .container { padding: 0 26px; }
+  .negocios-grid { grid-template-columns: repeat(3, 1fr); }
+  .team-grid { grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .pilares-grid { grid-template-columns: repeat(2, 1fr); }
+  .tech-grid { grid-template-columns: repeat(3, 1fr); }
+  .footer-grid { grid-template-columns: 1.2fr 1fr 1fr; }
+  .footer-grid .footer-col:last-child { display: none; }
+}
+
+/* ---- Tablet ---- */
+@media (max-width: 1024px) {
+  .section { padding: 84px 0; }
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-carousel { order: -1; }
+  .hero-desc { max-width: 100%; }
+  .mv-grid { grid-template-columns: 1fr; }
+  .qs-main { grid-template-columns: 1fr; gap: 34px; }
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .negocios-grid { grid-template-columns: repeat(2, 1fr); }
+  .rl-grid { grid-template-columns: 1fr; }
+  .analitica-indicadores { grid-template-columns: repeat(2, 1fr); }
+  .analitica-bi { grid-template-columns: 1fr; }
+  .analitica-soluciones { grid-template-columns: repeat(2, 1fr); }
+  .proyectos-grid { grid-template-columns: repeat(2, 1fr); }
+  .tech-ai-banner { grid-template-columns: 1fr; padding: 36px; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+}
+
+/* ---- Mobile nav + general mobile ---- */
+/* El menú de 9 enlaces necesita bastante ancho; se colapsa a hamburguesa
+   antes que las secciones (breakpoint mayor que el resto del layout) para
+   que el header nunca desborde ni recorte los logos San Fernando / Chimú. */
+@media (max-width: 1400px) {
+  .nav-toggle { display: flex; }
+
+  .main-nav {
+    position: fixed;
+    top: var(--header-h);
+    left: 0; right: 0;
+    background: var(--blanco);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 14px 24px 26px;
+    box-shadow: 0 20px 30px rgba(2,29,56,0.12);
+    transform: translateY(-12px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+    z-index: 800;
+  }
+  .main-nav.is-open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .main-nav a { width: 100%; padding: 12px 0; border-bottom: 1px solid rgba(2,29,56,0.06); }
+
+  .header-logixsc .lx-word { display: none; }
+  .header-brands img { height: 26px; }
+}
+
+/* ---- Small tablet / large phone ---- */
+@media (max-width: 768px) {
+  .container { padding: 0 20px; }
+  .section { padding: 68px 0; }
+  .section-head { margin-bottom: 40px; }
+
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .negocios-grid { grid-template-columns: 1fr 1fr; gap: 18px; }
+  .analitica-indicadores { grid-template-columns: 1fr 1fr; }
+  .analitica-soluciones { grid-template-columns: 1fr; }
+  .proyectos-grid { grid-template-columns: 1fr; }
+  .proyectos-filtros { flex-direction: column; }
+  .pilares-grid { grid-template-columns: 1fr 1fr; }
+  .tech-grid { grid-template-columns: 1fr 1fr; }
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+
+  .evento-item { grid-template-columns: 70px 1fr; gap: 16px; padding: 18px; }
+  .evento-fecha .dia { font-size: 20px; }
+}
+
+/* ---- Mobile ---- */
+@media (max-width: 560px) {
+  .header-inner { gap: 10px; }
+  .header-divider { display: none; }
+  .header-brands { gap: 10px; }
+  .header-brands img { height: 22px; }
+  .header-logixsc img { height: 20px; width: 20px; }
+
+  .hero { padding: 40px 0 60px; }
+  .hero-cta { flex-direction: column; align-items: stretch; }
+  .hero-stats { gap: 26px; }
+
+  .mv-card { padding: 36px 26px; min-height: unset; }
+  .qs-text h3 { font-size: 22px; }
+  .team-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .team-card { padding: 20px 14px; }
+  .team-card img { width: 68px; height: 68px; }
+
+  .negocios-grid { grid-template-columns: 1fr; }
+  .rl-points { gap: 10px; }
+
+  .analitica-tabs { gap: 8px; }
+  .analitica-tab { padding: 11px 20px; font-size: 13px; }
+  .analitica-indicadores { grid-template-columns: 1fr; }
+  .analitica-bi { padding: 30px 24px; }
+
+  .eventos-filtros { gap: 8px; }
+  .evento-filtro { padding: 10px 18px; font-size: 12.5px; }
+  .evento-item { grid-template-columns: 1fr; }
+  .evento-fecha { flex-direction: row; gap: 8px; padding: 8px 0; }
+
+  .pilares-grid { grid-template-columns: 1fr; }
+  .tech-grid { grid-template-columns: 1fr 1fr; }
+  .tech-ai-orbit { max-width: 240px; }
+
+  .frase-final { padding: 60px 0; }
+}
+
+/* prevent any horizontal overflow */
+html, body { overflow-x: hidden; }

@@ -1,0 +1,53 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2038 >>
+stream
+0 0.231 0.435 rg 0 742 595 100 re f
+0.89 0.024 0.075 rg 0 739 595 3 re f
+BT /F1 22 Tf 1 1 1 rg 40 797 Td (LOGIXSC+) Tj ET
+BT /F1 11 Tf 1 1 1 rg 40 777 Td (Gerencia de Logistica  |  San Fernando / Chimu) Tj ET
+BT /F1 16 Tf 0.008 0.114 0.220 rg 40 702 Td (Analitica y Business Intelligence) Tj ET
+BT /F1 11 Tf 0 0.231 0.435 rg 40 680 Td (Resumen de la estrategia analitica de la Gerencia de Logistica para San Fernando y Chimu.) Tj ET
+BT /F1 12 Tf 0.89 0.024 0.075 rg 40 654 Td (1. Enfoque analitico) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 634 Td (La informacion operativa de transporte, almacenamiento y flota se centraliza en tableros Power BI) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 620 Td (conectados a las fuentes de gestion logistica de cada empresa.) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 600 Td (Esto permite tomar decisiones basadas en datos en tiempo real, tanto a nivel de jefatura como de) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 586 Td (gerencia.) Tj ET
+BT /F1 12 Tf 0.89 0.024 0.075 rg 40 556 Td (2. Indicadores clave) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 536 Td (Nivel de servicio \(entregas a tiempo y completas\).) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 516 Td (Costo logistico sobre venta.) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 496 Td (Ocupacion y rotacion de flota / almacen.) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 476 Td (Cobertura de monitoreo GPS de unidades.) Tj ET
+BT /F1 12 Tf 0.89 0.024 0.075 rg 40 446 Td (3. Capacidades de la plataforma) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 426 Td (Tableros interactivos segmentados por negocio y por empresa.) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 406 Td (Modelos de datos gobernados y trazables.) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 386 Td (Alertas e indicadores en tiempo real.) Tj ET
+BT /F1 10 Tf 0.008 0.114 0.220 rg 40 366 Td (Autoservicio analitico para las jefaturas de logistica.) Tj ET
+BT /F1 8 Tf 0.45 0.45 0.45 rg 40 30 Td (Documento de referencia generado para el portal LOGIXSC+ - Gerencia de Logistica) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000002331 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2401
+%%EOF

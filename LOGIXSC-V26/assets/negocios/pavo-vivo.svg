@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="300" fill="#075995"/>
+  <rect y="210" width="400" height="90" fill="#0A2E4D"/>
+  <g transform="translate(60,110)">
+    <rect width="280" height="90" rx="8" fill="#F3F6F9" opacity="0.12" stroke="#F3F6F9" stroke-width="3"/>
+    <line x1="70" y1="0" x2="70" y2="90" stroke="#F3F6F9" stroke-width="2" opacity="0.4"/>
+    <line x1="140" y1="0" x2="140" y2="90" stroke="#F3F6F9" stroke-width="2" opacity="0.4"/>
+    <line x1="210" y1="0" x2="210" y2="90" stroke="#F3F6F9" stroke-width="2" opacity="0.4"/>
+  </g>
+  <g fill="#FFFFFF">
+    <g transform="translate(150,130)">
+      <ellipse cx="0" cy="22" rx="30" ry="26"/>
+      <circle cx="18" cy="-2" r="14"/>
+      <path d="M18 -16 Q26 -30 34 -16 Q26 -20 18 -16Z" fill="#E30613" opacity="0.9"/>
+      <path d="M28 0 Q40 4 30 10 Z" fill="#E30613"/>
+    </g>
+    <g transform="translate(240,140)">
+      <ellipse cx="0" cy="18" rx="24" ry="21"/>
+      <circle cx="15" cy="-3" r="11"/>
+      <path d="M15 -14 Q21 -24 27 -14 Q21 -17 15 -14Z" fill="#E30613" opacity="0.9"/>
+    </g>
+  </g>
+</svg>

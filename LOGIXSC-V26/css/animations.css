@@ -1,0 +1,53 @@
+/* =========================================================
+   LOGIXSC+ — animations.css
+   ========================================================= */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulseRing {
+  0% { box-shadow: 0 0 0 0 rgba(227,6,19,0.35); }
+  70% { box-shadow: 0 0 0 14px rgba(227,6,19,0); }
+  100% { box-shadow: 0 0 0 0 rgba(227,6,19,0); }
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.hero-eyebrow::before { animation: pulseRing 2.4s infinite; }
+
+.tech-ai-orbit { animation: spinSlow 40s linear infinite; }
+.tech-ai-orbit .tech-ai-core,
+.tech-ai-orbit .tech-ai-node { animation: spinSlow 40s linear infinite reverse; }
+
+.qs-media img,
+.rl-media img { animation: fadeIn 0.9s ease; }
+
+/* Staggered reveal helper — applied via JS by adding is-visible with a delay */
+.reveal[data-delay="1"].is-visible { animation-delay: 0.08s; }
+.reveal[data-delay="2"].is-visible { animation-delay: 0.16s; }
+.reveal[data-delay="3"].is-visible { animation-delay: 0.24s; }
+.reveal[data-delay="4"].is-visible { animation-delay: 0.32s; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

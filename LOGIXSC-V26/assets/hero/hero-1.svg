@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="h1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#075995"/>
+      <stop offset="1" stop-color="#003B70"/>
+    </linearGradient>
+    <linearGradient id="h1road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A2E4D"/>
+      <stop offset="1" stop-color="#021D38"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#h1sky)"/>
+  <circle cx="650" cy="120" r="150" fill="#FFFFFF" opacity="0.05"/>
+  <circle cx="120" cy="90" r="90" fill="#FFFFFF" opacity="0.05"/>
+  <rect x="0" y="380" width="800" height="220" fill="url(#h1road)"/>
+  <rect x="0" y="380" width="800" height="10" fill="#FFFFFF" opacity="0.15"/>
+  <g opacity="0.9">
+    <rect x="40" y="410" width="140" height="10" rx="5" fill="#E30613"/>
+    <rect x="260" y="410" width="140" height="10" rx="5" fill="#E30613"/>
+    <rect x="480" y="410" width="140" height="10" rx="5" fill="#E30613"/>
+  </g>
+  <!-- Truck 1 -->
+  <g transform="translate(120,300)">
+    <rect x="0" y="40" width="150" height="60" rx="6" fill="#FFFFFF"/>
+    <rect x="150" y="55" width="60" height="45" rx="6" fill="#E30613"/>
+    <rect x="160" y="63" width="30" height="20" rx="3" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="45" cy="105" r="16" fill="#021D38"/>
+    <circle cx="45" cy="105" r="6" fill="#FFFFFF"/>
+    <circle cx="120" cy="105" r="16" fill="#021D38"/>
+    <circle cx="120" cy="105" r="6" fill="#FFFFFF"/>
+    <circle cx="190" cy="105" r="16" fill="#021D38"/>
+    <circle cx="190" cy="105" r="6" fill="#FFFFFF"/>
+    <rect x="10" y="15" width="130" height="25" rx="4" fill="#003B70"/>
+  </g>
+  <!-- Truck 2 -->
+  <g transform="translate(430,340) scale(0.8)">
+    <rect x="0" y="40" width="150" height="60" rx="6" fill="#F3F6F9"/>
+    <rect x="150" y="55" width="60" height="45" rx="6" fill="#003B70"/>
+    <rect x="160" y="63" width="30" height="20" rx="3" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="45" cy="105" r="16" fill="#021D38"/>
+    <circle cx="120" cy="105" r="16" fill="#021D38"/>
+    <circle cx="190" cy="105" r="16" fill="#021D38"/>
+    <rect x="10" y="15" width="130" height="25" rx="4" fill="#E30613"/>
+  </g>
+  <g opacity="0.25">
+    <circle cx="700" cy="480" r="3" fill="#fff"/>
+    <circle cx="720" cy="500" r="3" fill="#fff"/>
+    <circle cx="60" cy="500" r="3" fill="#fff"/>
+  </g>
+</svg>

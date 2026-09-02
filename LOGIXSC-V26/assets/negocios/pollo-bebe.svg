@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="300" fill="#003B70"/>
+  <g transform="translate(50,80)">
+    <rect width="300" height="150" rx="10" fill="#F3F6F9" opacity="0.14" stroke="#F3F6F9" stroke-width="3"/>
+    <line x1="0" y1="50" x2="300" y2="50" stroke="#F3F6F9" opacity="0.35"/>
+    <line x1="0" y1="100" x2="300" y2="100" stroke="#F3F6F9" opacity="0.35"/>
+    <line x1="75" y1="0" x2="75" y2="150" stroke="#F3F6F9" opacity="0.35"/>
+    <line x1="150" y1="0" x2="150" y2="150" stroke="#F3F6F9" opacity="0.35"/>
+    <line x1="225" y1="0" x2="225" y2="150" stroke="#F3F6F9" opacity="0.35"/>
+  </g>
+  <g fill="#FFE082">
+    <g transform="translate(115,125)"><circle r="16"/><circle cx="14" cy="-8" r="9"/><path d="M20 -10 L30 -8 L20 -5Z" fill="#E30613"/></g>
+    <g transform="translate(200,150)"><circle r="18"/><circle cx="16" cy="-9" r="10"/><path d="M22 -11 L33 -9 L22 -6Z" fill="#E30613"/></g>
+    <g transform="translate(280,120)"><circle r="14"/><circle cx="12" cy="-7" r="8"/><path d="M18 -9 L27 -7 L18 -5Z" fill="#E30613"/></g>
+    <g transform="translate(160,180)"><circle r="13"/><circle cx="11" cy="-6" r="7"/><path d="M16 -8 L24 -6 L16 -4Z" fill="#E30613"/></g>
+  </g>
+</svg>

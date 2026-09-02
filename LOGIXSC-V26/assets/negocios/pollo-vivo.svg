@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="300" fill="#075995"/>
+  <rect width="400" height="300" fill="#003B70" opacity="0.35"/>
+  <g transform="translate(0,190)">
+    <rect width="400" height="20" fill="#0A2E4D"/>
+  </g>
+  <!-- crate -->
+  <g transform="translate(70,120)">
+    <rect width="260" height="70" rx="6" fill="#F3F6F9" opacity="0.15" stroke="#F3F6F9" stroke-width="3"/>
+    <line x1="0" y1="23" x2="260" y2="23" stroke="#F3F6F9" stroke-width="2" opacity="0.5"/>
+    <line x1="0" y1="47" x2="260" y2="47" stroke="#F3F6F9" stroke-width="2" opacity="0.5"/>
+    <line x1="65" y1="0" x2="65" y2="70" stroke="#F3F6F9" stroke-width="2" opacity="0.5"/>
+    <line x1="130" y1="0" x2="130" y2="70" stroke="#F3F6F9" stroke-width="2" opacity="0.5"/>
+    <line x1="195" y1="0" x2="195" y2="70" stroke="#F3F6F9" stroke-width="2" opacity="0.5"/>
+  </g>
+  <!-- chickens -->
+  <g fill="#FFFFFF">
+    <g transform="translate(110,95)">
+      <ellipse cx="0" cy="18" rx="26" ry="20"/>
+      <circle cx="24" cy="4" r="12"/>
+      <path d="M34 2 L46 6 L34 10 Z" fill="#E30613"/>
+      <path d="M20 -10 L26 -18 L30 -8 Z" fill="#E30613"/>
+    </g>
+    <g transform="translate(190,100)">
+      <ellipse cx="0" cy="18" rx="26" ry="20"/>
+      <circle cx="24" cy="4" r="12"/>
+      <path d="M34 2 L46 6 L34 10 Z" fill="#E30613"/>
+      <path d="M20 -10 L26 -18 L30 -8 Z" fill="#E30613"/>
+    </g>
+    <g transform="translate(260,92)">
+      <ellipse cx="0" cy="18" rx="24" ry="18"/>
+      <circle cx="22" cy="5" r="11"/>
+      <path d="M32 3 L43 6 L32 9 Z" fill="#E30613"/>
+    </g>
+  </g>
+</svg>

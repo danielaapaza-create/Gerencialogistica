@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="gerBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A4A82"/>
+      <stop offset="1" stop-color="#021D38"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#gerBg)"/>
+  <g opacity="0.5" stroke="#4FA8E0" stroke-width="1">
+    <line x1="0" y1="420" x2="800" y2="420"/>
+    <line x1="0" y1="460" x2="800" y2="460"/>
+  </g>
+  <!-- Four silhouettes representing the logistics management team -->
+  <g fill="#0D3A63">
+    <g transform="translate(160,240)">
+      <circle cx="0" cy="0" r="55"/>
+      <path d="M-75 200 Q-75 90 0 90 Q75 90 75 200 Z"/>
+    </g>
+    <g transform="translate(340,220)">
+      <circle cx="0" cy="0" r="65"/>
+      <path d="M-88 220 Q-88 100 0 100 Q88 100 88 220 Z"/>
+    </g>
+    <g transform="translate(500,235)">
+      <circle cx="0" cy="0" r="58"/>
+      <path d="M-80 210 Q-80 95 0 95 Q80 95 80 210 Z"/>
+    </g>
+    <g transform="translate(660,245)">
+      <circle cx="0" cy="0" r="52"/>
+      <path d="M-72 195 Q-72 88 0 88 Q72 88 72 195 Z"/>
+    </g>
+  </g>
+  <g fill="#124E86" opacity="0.7">
+    <g transform="translate(160,240)">
+      <circle cx="0" cy="0" r="55"/>
+      <path d="M-75 200 Q-75 90 0 90 Q75 90 75 200 Z"/>
+    </g>
+  </g>
+  <rect x="0" y="0" width="800" height="500" fill="#021D38" opacity="0.15"/>
+  <text x="400" y="470" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" letter-spacing="3" fill="#F3F6F9" opacity="0.8">EQUIPO DE GERENCIA DE LOGÍSTICA</text>
+</svg>
