@@ -21,7 +21,7 @@
   --radius: 14px;
   --shadow-soft: 0 18px 40px rgba(2, 29, 56, 0.10);
   --shadow-strong: 0 24px 60px rgba(2, 29, 56, 0.22);
-  --header-h: 80px;
+  --header-h: 92px;
 }
 
 * { box-sizing: border-box; }
@@ -176,10 +176,10 @@ button { font-family: inherit; cursor: pointer; }
   gap: 18px;
   flex-shrink: 0;
 }
-.header-brands img { height: 32px; width: auto; }
+.header-brands img { height: 46px; width: auto; }
 .header-divider {
   width: 1px;
-  height: 30px;
+  height: 40px;
   background: rgba(2,29,56,0.15);
   flex-shrink: 0;
 }
