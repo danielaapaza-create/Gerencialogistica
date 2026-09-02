@@ -24,9 +24,8 @@
   .team-grid { grid-template-columns: repeat(2, 1fr); }
   .negocios-grid { grid-template-columns: repeat(2, 1fr); }
   .rl-grid { grid-template-columns: 1fr; }
-  .analitica-indicadores { grid-template-columns: repeat(2, 1fr); }
+  .dashboard-grid { grid-template-columns: repeat(2, 1fr); }
   .analitica-bi { grid-template-columns: 1fr; }
-  .analitica-soluciones { grid-template-columns: repeat(2, 1fr); }
   .proyectos-grid { grid-template-columns: repeat(2, 1fr); }
   .tech-ai-banner { grid-template-columns: 1fr; padding: 36px; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
@@ -76,8 +75,7 @@
 
   .team-grid { grid-template-columns: repeat(2, 1fr); }
   .negocios-grid { grid-template-columns: 1fr 1fr; gap: 18px; }
-  .analitica-indicadores { grid-template-columns: 1fr 1fr; }
-  .analitica-soluciones { grid-template-columns: 1fr; }
+  .dashboard-grid { grid-template-columns: 1fr 1fr; }
   .proyectos-grid { grid-template-columns: 1fr; }
   .proyectos-filtros { flex-direction: column; }
   .pilares-grid { grid-template-columns: 1fr 1fr; }
@@ -112,7 +110,7 @@
 
   .analitica-tabs { gap: 8px; }
   .analitica-tab { padding: 11px 20px; font-size: 13px; }
-  .analitica-indicadores { grid-template-columns: 1fr; }
+  .dashboard-grid { grid-template-columns: 1fr; }
   .analitica-bi { padding: 30px 24px; }
 
   .eventos-filtros { gap: 8px; }

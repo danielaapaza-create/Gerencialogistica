@@ -1,4 +1,4 @@
-/* LOGIXSC+ — analitica.js: tabs San Fernando / Chimú + render de indicadores */
+/* LOGIXSC+ — analitica.js: tabs San Fernando / Chimú + catálogo de dashboards Power BI */
 (function () {
   "use strict";
 
@@ -9,30 +9,40 @@
 
   var data = (window.LOGIXSC_DATA && window.LOGIXSC_DATA.analitica) || { empresas: [], businessIntelligence: {} };
 
+  function dashboardCard(d) {
+    return (
+      '<div class="dashboard-card">' +
+        '<h5>' + d.nombre + '</h5>' +
+        '<div class="dashboard-meta">' +
+          '<span>Resp. <strong>' + d.responsable + '</strong></span>' +
+          '<span>Jefatura <strong>' + d.jefatura + '</strong></span>' +
+        '</div>' +
+        '<span class="dashboard-freq">Actualización: ' + d.frecuencia + ' · ' + d.hora + '</span>' +
+        '<a class="dashboard-link" href="' + d.url + '" target="_blank" rel="noopener noreferrer">Abrir dashboard' +
+          '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>' +
+        '</a>' +
+      '</div>'
+    );
+  }
+
+  function areaGroup(area) {
+    return (
+      '<div class="analitica-area">' +
+        '<h4 class="analitica-area-title">' + area.nombre + '<span class="area-count">' + area.dashboards.length + (area.dashboards.length === 1 ? " dashboard" : " dashboards") + '</span></h4>' +
+        '<div class="dashboard-grid">' + area.dashboards.map(dashboardCard).join("") + '</div>' +
+      '</div>'
+    );
+  }
+
   tabsWrap.innerHTML = data.empresas.map(function (emp, i) {
     return '<button class="analitica-tab' + (i === 0 ? " is-active" : "") + '" data-tab="' + emp.id + '" type="button">' + emp.nombre + '</button>';
   }).join("");
 
   panelsWrap.innerHTML = data.empresas.map(function (emp, i) {
-    var indicadores = emp.indicadores.map(function (ind) {
-      return (
-        '<div class="indicador-card">' +
-          '<span class="valor">' + ind.valor + '</span>' +
-          '<span class="etiqueta">' + ind.etiqueta + '</span>' +
-          '<span class="detalle">' + ind.detalle + '</span>' +
-        '</div>'
-      );
-    }).join("");
-
-    var soluciones = emp.soluciones.map(function (s) {
-      return '<div class="solucion-chip">' + s + '</div>';
-    }).join("");
-
     return (
       '<div class="analitica-panel' + (i === 0 ? " is-active" : "") + '" data-panel="' + emp.id + '">' +
-        '<p class="analitica-summary">' + emp.resumen + '</p>' +
-        '<div class="analitica-indicadores">' + indicadores + '</div>' +
-        '<div class="analitica-soluciones">' + soluciones + '</div>' +
+        '<p class="analitica-summary">' + emp.resumen + ' Gerencia: <strong>' + emp.gerencia + '</strong>.</p>' +
+        '<div class="analitica-areas">' + emp.areas.map(areaGroup).join("") + '</div>' +
       '</div>'
     );
   }).join("");
