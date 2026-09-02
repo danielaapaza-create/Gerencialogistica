@@ -37,7 +37,7 @@
     var cls = "proyecto-card" + (firstRender ? " reveal" : "");
     var delayAttr = firstRender ? ' data-delay="' + ((i % 3) + 1) + '"' : "";
     return (
-      '<article class="' + cls + '"' + delayAttr + '>' +
+      '<article class="' + cls + '"' + delayAttr + ' data-tipo="' + p.tipo + '">' +
         '<div class="proyecto-head">' +
           '<h4>' + p.nombre + '</h4>' +
           '<span class="proyecto-tipo">' + p.tipo + '</span>' +

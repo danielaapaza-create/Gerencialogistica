@@ -61,7 +61,8 @@
     visibility: visible;
     pointer-events: auto;
   }
-  .main-nav a { width: 100%; padding: 12px 0; border-bottom: 1px solid rgba(2,29,56,0.06); }
+  .main-nav a { width: 100%; padding: 12px 14px; border-bottom: 1px solid rgba(2,29,56,0.06); border-radius: 0; }
+  .main-nav a.nav-cta { margin-left: 0; border-bottom-color: transparent; }
 
   .header-logixsc .lx-word { display: none; }
   .header-brands img { height: 38px; }
